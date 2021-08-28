@@ -1,8 +1,8 @@
-DEVICE_PATH := device/Sony/himiko
+DEVICE_PATH := device/sony/himiko
 
 ALLOW_MISSING_DEPENDENCIES = true
 
-BOARD_VENDOR := Sony
+BOARD_VENDOR := sony
 
 TARGET_BOARD_PLATFORM := sdm660
 TARGET_BOARD_PLATFORM_GPU := qcom-adreno508

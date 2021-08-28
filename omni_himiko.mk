@@ -6,8 +6,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 $(call inherit-product, vendor/omni/config/common.mk)
 
 # Inherit from hardware-specific part of the product configuration
-$(call inherit-product, device/Sony/himiko/device.mk)
-$(call inherit-product, device/Sony/himiko/RecoveryConfig.mk)
+$(call inherit-product, device/sony/himiko/device.mk)
+$(call inherit-product, device/sony/himiko/RecoveryConfig.mk)
 
 # Release name
 PRODUCT_RELEASE_NAME := Xperia 8
@@ -15,7 +15,7 @@ PRODUCT_RELEASE_NAME := Xperia 8
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := himiko
 PRODUCT_NAME := omni_himiko
-PRODUCT_BRAND := Sony
+PRODUCT_BRAND := sony
 PRODUCT_MODEL := SOV42
 PRODUCT_MANUFACTURER := Sony
 

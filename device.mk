@@ -1,5 +1,5 @@
 
-LOCAL_PATH := device/Sony/himiko
+LOCAL_PATH := device/sony/himiko
 
 # define hardware platform
 PRODUCT_PLATFORM := sdm660

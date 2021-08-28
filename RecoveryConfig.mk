@@ -13,11 +13,11 @@ TARGET_DISABLE_TRIPLE_BUFFERING := false
 RECOVERY_GRAPHICS_USE_LINELENGTH := true
 TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
 RECOVERY_SDCARD_ON_DATA := true
-TARGET_RECOVERY_WIPE := device/Sony/himiko/recovery.wipe
+TARGET_RECOVERY_WIPE := device/sony/himiko/recovery.wipe
 TARGET_COPY_OUT_VENDOR := vendor
 TARGET_RECOVERY_DEVICE_MODULES += android.hardware.boot@1.0
 USE_RECOVERY_INSTALLER := true
-RECOVERY_INSTALLER_PATH := device/Sony/himiko/installer
+RECOVERY_INSTALLER_PATH := device/sony/himiko/installer
 
 #TWRP FS
 TW_INCLUDE_FUSE_EXFAT := true
