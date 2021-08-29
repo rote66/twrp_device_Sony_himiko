@@ -40,8 +40,7 @@ PRODUCT_PACKAGES += \
     android.hardware.boot@1.0-impl-wrapper.recovery \
     android.hardware.boot@1.0-impl-wrapper \
     android.hardware.boot@1.0-impl-recovery \
-    bootctrl.sdm660 \
-    bootctrl.kona.sdm660
+    bootctrl.sdm660 
     
 PRODUCT_HOST_PACKAGES += \
     libandroidicu
