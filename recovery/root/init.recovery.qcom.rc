@@ -124,8 +124,6 @@ on init
 on boot
     export LD_CONFIG_FILE /sbin/ld.config.txt
     setprop sys.usb.config adb
-    chmod 0777 /sbin/patchfakepartitions-service.sh
-    start patchfakepartitions-service
     # Enable Power modes and set the CPU Freq Sampling rates
     write /sys/module/msm_thermal/core_control/enabled 0
     write /sys/devices/system/cpu/cpu1/online 1
