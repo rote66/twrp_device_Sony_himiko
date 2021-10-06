@@ -1,0 +1,4 @@
+# Aliases extracted from modules themselves.
+alias of:N*T*Cldo-vibrator* ldo_vibrator
+alias of:N*T*Csynaptics,tcm-i2c* synaptics_tcm_i2c
+alias i2c:synaptics_tcm_i2c synaptics_tcm_i2c

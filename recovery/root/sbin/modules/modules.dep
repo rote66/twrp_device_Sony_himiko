@@ -1,0 +1,9 @@
+/sbin/modules/synaptics_tcm_core.ko: /sbin/modules/synaptics_tcm_i2c.ko
+/sbin/modules/synaptics_tcm_reflash.ko: /sbin/modules/synaptics_tcm_core.ko /sbin/modules/synaptics_tcm_i2c.ko
+/sbin/modules/synaptics_tcm_testing.ko: /sbin/modules/synaptics_tcm_core.ko /sbin/modules/synaptics_tcm_i2c.ko
+/sbin/modules/synaptics_tcm_device.ko: /sbin/modules/synaptics_tcm_core.ko /sbin/modules/synaptics_tcm_i2c.ko
+/sbin/modules/synaptics_tcm_recovery.ko: /sbin/modules/synaptics_tcm_core.ko /sbin/modules/synaptics_tcm_i2c.ko
+/sbin/modules/synaptics_tcm_touch.ko: /sbin/modules/synaptics_tcm_core.ko /sbin/modules/synaptics_tcm_i2c.ko
+/sbin/modules/ldo_vibrator.ko:
+/sbin/modules/synaptics_tcm_i2c.ko:
+/sbin/modules/synaptics_tcm_diagnostics.ko: /sbin/modules/synaptics_tcm_core.ko /sbin/modules/synaptics_tcm_i2c.ko
