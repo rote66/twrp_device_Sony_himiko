@@ -39,6 +39,13 @@ service prepdecrypt /system/bin/prepdecrypt.sh
     user root
     group root
     seclabel u:r:recovery:s0
+    
+service load_modules /system/bin/modules.sh
+    oneshot
+    disabled
+    user root
+    group root
+    seclabel u:r:recovery:s0
 
 service hwservicemanager /system/bin/hwservicemanager
     user root
@@ -118,6 +125,7 @@ on init
     start hwservicemanager
     start boot-1-0
     start prepdecrypt
+    start load_modules
     start time_daemon
     setprop crypto.ready 1
     
